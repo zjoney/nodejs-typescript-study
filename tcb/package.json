@@ -1,0 +1,19 @@
+{
+  "name": "tcb",
+  "version": "0.1.0",
+  "description": "All my tencent cloudbase sources.",
+  "scripts": {
+    "new": "plop",
+    "dev": "node-dev -r dotenv/config bin/www",
+    "lint": "standard --fix",
+    "deploy": "tcb fn deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudbase/cli": "1.6.7",
+    "dotenv": "8.2.0",
+    "node-dev": "6.7.0",
+    "plop": "2.7.4",
+    "standard": "16.0.3"
+  }
+}
